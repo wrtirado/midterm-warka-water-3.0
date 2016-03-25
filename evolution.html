@@ -31,14 +31,14 @@
     <div ng-repeat="info in warkaCtrl.evolutionArr" class="row">
       <div class="white col-lg-8 col-lg-offset-2 co col-sm-10 white col-sm-offset-1">
         <div class="col-lg-8 col-md-8 col-sm-8">
-          <img class="img-responsive" src="{{info.url}}" />
+          <img class="img-responsive" src="{{::info.url}}" />
         </div>
         <div class="col-lg-4 col-md-4 col-sm-4">
-          <h5>{{info.version}}</h5>
-          <h5>{{info.prototype}}</h5>
-          <h5>{{info.year}}</h5>
-          <h5>{{info.context}}</h5>
-          <h5>{{info.location}}</h5>
+          <h5>{{::info.version}}</h5>
+          <h5>{{::info.prototype}}</h5>
+          <h5>{{::info.year}}</h5>
+          <h5>{{::info.context}}</h5>
+          <h5>{{::info.location}}</h5>
         </div>
         <div class="emptyBox"></div>
       </div>
