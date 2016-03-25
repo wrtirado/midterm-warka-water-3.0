@@ -14,7 +14,7 @@
 
       .state('evolution',{url: '/evolution', templateUrl: './evolution.html'})
 
-      .state('faq', {url: '/faq', templateUrl: './faq.html',})
+      .state('faq', {url: '/faq', templateUrl: './FAQ.html',})
 
       .state('team',{url: '/team', templateUrl: './team.html'})
       // $urlRouterProvider.otherwise('/')
